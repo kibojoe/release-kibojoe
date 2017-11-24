@@ -1,8 +1,8 @@
 # Maintainer: Holmes <holmes_holmes [at] live [dot] com>
 
 pkgname=release-kibojoe
-pkgver=1709
-pkgrel=5
+pkgver=20171123
+pkgrel=0
 pkgdesc="Kibojoe's release definition"
 arch=("any")
 url="https://github.com/kibojoe/release-kibojoe"
@@ -12,6 +12,10 @@ source=('lsb-release')
 conflicts=('manjaro-release' 'manjaro-release-dev')
 install="release-kibojoe.install"
 sha256sums=(SKIP)
+
+pkgver() {
+	date +%Y%m%d
+}
 
 package() {
 	mkdir -p ${pkgdir}/etc
