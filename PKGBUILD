@@ -1,8 +1,8 @@
 # Maintainer: Holmes <holmes_holmes [at] live [dot] com>
 
 pkgname=release-kibojoe
-pkgver=1709
-pkgrel=7
+pkgver=1802
+pkgrel=rc1
 pkgdesc="Kibojoe's release definition"
 arch=("x86_64")
 url="https://github.com/kibojoe/release-kibojoe"
