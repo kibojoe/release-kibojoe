@@ -2,7 +2,7 @@
 
 pkgname=release-kibojoe
 pkgver=1802
-pkgrel=rc1
+pkgrel=1
 pkgdesc="Kibojoe's release definition"
 arch=("x86_64")
 url="https://github.com/kibojoe/release-kibojoe"
